@@ -268,9 +268,9 @@ body {
 @media (max-width: 600px) {
   body { font-size: 17px; }
   .site-hero { padding: 36px 20px 28px; }
-  .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .cards-grid { grid-template-columns: 1fr; gap: 10px; }
   .cards-wrap { padding: 20px 14px 48px; }
-  .pcard { padding: 16px 14px 14px; min-height: 210px; }
+  .pcard { padding: 16px 14px 14px; min-height: auto; }
   .pcard-title { font-size: 15px; }
   .pcard-desc { font-size: 13px; }
   .policy-page-hero { padding: 32px 20px 24px; }
@@ -283,8 +283,8 @@ body {
   .sub-box { padding: 18px 16px; }
 }
 @media (max-width: 400px) {
-  .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .pcard { min-height: 190px; padding: 14px 12px 12px; }
-  .pcard-title { font-size: 14px; }
-  .pcard-desc { font-size: 12.5px; }
+  .cards-grid { grid-template-columns: 1fr; gap: 8px; }
+  .pcard { min-height: auto; padding: 14px 12px 12px; }
+  .pcard-title { font-size: 15px; }
+  .pcard-desc { font-size: 13px; }
 }
